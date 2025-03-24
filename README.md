@@ -1,4 +1,16 @@
-# Koin Relocatino Scripts
+# Koin Relocation Scripts
+
+Those scripts help to rebuild & package Koin project with a different name. The interest is for <b>SDK & Library development</b>, to avoid conflict between embedded Koin version and any consuming application.
+
+Example of Koin embeded version: [Kotzilla Repository](https://repository.kotzilla.io/#browse/browse:Koin-Embedded)
+
+```kotlin
+maven { 'https://repository.kotzilla.io/repository/kotzilla-platform/' }
+```
+
+Contact us: [Koin Team](mailto:koin@kotzilla.io)
+
+# Setup & Run
 
 ## Setup
 Open `relocate.properties` file to specify:
