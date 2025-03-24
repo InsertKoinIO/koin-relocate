@@ -10,7 +10,7 @@ maven { 'https://repository.kotzilla.io/repository/kotzilla-platform/' }
 
 Contact us: [Koin Team](mailto:koin@kotzilla.io)
 
-# Setup & Run
+# Koin Relocation - Setup & Run
 
 ## Setup
 Open `relocate.properties` file to specify:
@@ -19,13 +19,13 @@ Open `relocate.properties` file to specify:
 - KOIN_MODULES - list of Koin modules to rename with prefix. I.e `koin-core` will become `embeded-koin-core`
 - BUILD_DIR - folder where Koin built artifacts are copied
 
-## Run the Script
+## Run the Scripts
 
-> Requirements: JDK 17 environment
+> Requirements: JDK 17 environment to build Koin project
 
 Just run `./relocate.sh`. The output build will be in `./build` or $BUILD_DIR
 
-## Get the Jar/Aar
+## Get the Koin JAR/AAR
 
 Once executed, open the `./build` or $BUILD_DIR folder to get your aar/jar artifacts, to add to your project
 
@@ -39,6 +39,8 @@ The `embedded-project-sample` folder contains sample for Koin embedded SDK Libra
 ## Install Library
 
 from `embedded-project-sample/sample-library` run `install.sh`
+
+> This projects uses Kotzilla Koin Embedded repo.
 
 ## Run App & Library
 
