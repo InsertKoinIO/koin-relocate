@@ -1,0 +1,23 @@
+[versions]
+# Core
+kotlin2 = "2.0.21"
+koin4 = "4.0.2"
+
+# Android
+agp = "8.7.3"
+android-fragment = "1.8.5"
+android-appcompat = "1.7.0"
+
+library-version ="1.0"
+
+[libraries]
+koin4-android = { module = "io.insert-koin:koin-android", version.ref = "koin4" }
+android-fragment = { module = "androidx.fragment:fragment-ktx", version.ref = "android-fragment" }
+android-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "android-appcompat" }
+sample-library = { module = "io.kotzilla:android-library", version.ref = "library-version" }
+
+[plugins]
+# App
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin2" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin2" }

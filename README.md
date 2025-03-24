@@ -28,3 +28,18 @@ Just run `./relocate.sh`. The output build will be in `./build` or $BUILD_DIR
 ## Get the Jar/Aar
 
 Once executed, open the `./build` or $BUILD_DIR folder to get your aar/jar artifacts, to add to your project
+
+# Project Sample
+
+The `embedded-project-sample` folder contains sample for Koin embedded SDK Library.
+
+- sample-library - Android library project, using Koin embedded version in 3.5.6
+- sample-app - Android Application using Koin 4.0.2 and sample-library
+
+## Install Library
+
+from `embedded-project-sample/sample-library` run `install.sh`
+
+## Run App & Library
+
+from `embedded-project-sample/sample-app`, run the Android app
