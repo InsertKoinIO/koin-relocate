@@ -1,16 +1,16 @@
-# Koin Relocation Scripts
+# Koin Embedded for Kotlin SDK & Library
 
-Those scripts help to rebuild & package Koin project with a different name. The interest is for <b>SDK & Library development</b>, to avoid conflict between embedded Koin version and any consuming application.
+This project proposes scripts to help rebuild & package Koin project with a different package name. The interest is for <b>SDK & Library development</b>, to avoid conflict between embedded Koin version and any consuming application that would use another version of Koin, that might conflict.
 
-If you need help or more information you can contact the [Koin Team](mailto:koin@kotzilla.io).
+Feedback or help? Contact [Koin Team](mailto:koin@kotzilla.io).
 
 # Koin Embedded Version
 
 Here is an example of Koin embeded version: [Kotzilla Repository](https://repository.kotzilla.io/#browse/browse:Koin-Embedded) 
-- packages `embedded-koin-core`, `embedded-koin-android`
-- relocation on `embedded.koin.*`
+- Available packages: `embedded-koin-core`, `embedded-koin-android`
+- Relocation on from `org.koin.*` to `embedded.koin.*`
 
-Setupr yoru Grale config with this Maven repository:
+Setupr your Gradle config with this Maven repository:
 ```kotlin
 maven { 'https://repository.kotzilla.io/repository/kotzilla-platform/' }
 ```
