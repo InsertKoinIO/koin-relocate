@@ -15,7 +15,7 @@ Setupr your Gradle config with this Maven repository:
 maven { 'https://repository.kotzilla.io/repository/kotzilla-platform/' }
 ```
 
-# Koin Relocation - Setup & Run
+# Koin Relocation Scripts
 
 ## Setup
 Open `relocate.properties` file to specify:
